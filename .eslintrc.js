@@ -13,7 +13,16 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
-  plugins: ["react", "@typescript-eslint"],
+  plugins: ["react", "@typescript-eslint", "testing-library"],
+  overrides: [
+    {
+      files: ["**/*.test.tsx"],
+      extends: ["plugin:testing-library/react"],
+      env: {
+        jest: true,
+      },
+    },
+  ],
   rules: {
     "react/react-in-jsx-scope": "off",
   },
