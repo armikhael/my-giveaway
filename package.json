@@ -10,7 +10,7 @@
     "eslint": "eslint . --fix",
     "format": "prettier --write .",
     "prepare": "husky install",
-    "test": "jest --watch",
+    "test": "jest --watch --updateSnapshot",
     "test:coverage": "jest --coverage"
   },
   "dependencies": {

@@ -7,7 +7,7 @@
 
 # testing
 /coverage
-/pages/__snapshots__
+/__test__/pages/__snapshots__
 
 # next.js
 /.next/
