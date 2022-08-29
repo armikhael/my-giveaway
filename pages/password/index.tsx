@@ -12,7 +12,7 @@ const Password: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className={styles.title}>Login</h1>
+        <h1 className={styles.title}>Password</h1>
       </main>
     </div>
   );

@@ -12,7 +12,7 @@ const Register: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-        <h1 className={styles.title}>Login</h1>
+        <h1 className={styles.title}>Register</h1>
       </main>
     </div>
   );
