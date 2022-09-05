@@ -14,13 +14,7 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: rgba(0, 0, 0, 0.85);
-  }
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
 }

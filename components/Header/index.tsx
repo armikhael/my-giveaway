@@ -1,8 +1,7 @@
 import Link from "next/link";
-
+import { MenuOutlined } from "@ant-design/icons";
 import main from "@styles/main.module.scss";
 import header from "./header.module.scss";
-
 import Logo from "@assets/Logo";
 
 function Header() {
@@ -28,6 +27,23 @@ function Header() {
             <div className={header.auth}>
               <Link href="/">Inicio Sesión</Link>
               <Link href="/">Registrarme</Link>
+            </div>
+
+            <div className="lol">
+              <input type="checkbox" id="menu-bar" />
+              <label htmlFor="menu-bar">
+                <MenuOutlined />
+              </label>
+              <nav className="navbar">
+                <ul>
+                  <li>
+                    <a href="#">Homa</a>
+                  </li>
+                  <li>
+                    <a href="#">about</a>
+                  </li>
+                </ul>
+              </nav>
             </div>
           </div>
         </div>
