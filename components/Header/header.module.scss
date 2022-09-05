@@ -1,0 +1,67 @@
+@import "@styles/mixins";
+@import "@styles/variables";
+
+.container {
+  background: white;
+  box-shadow: 1px 3px 6px rgba(0, 0, 0, 0.05);
+  height: 60px;
+  @include flex-center;
+  &__content {
+    @include flex-center;
+    justify-content: space-between;
+  }
+}
+
+.section {
+  &__one {
+    @include flex-center;
+  }
+}
+
+.logo {
+  @include flex-center;
+  cursor: pointer;
+  &__title {
+    margin-left: 5px;
+    font-size: 18px;
+    color: $mainColor;
+    font-weight: 300;
+    span {
+      font-weight: 600;
+      color: $textColorTwo;
+      margin-left: 2px;
+    }
+  }
+}
+
+.options {
+  display: flex;
+  margin-left: 30px;
+  a {
+    font-weight: 600;
+    font-size: 14px;
+    color: #595959;
+    margin: 0 20px;
+    &:hover {
+      color: $mainColor;
+    }
+  }
+}
+
+.auth {
+  display: flex;
+  a {
+    border: 1px solid $mainColor;
+    padding: 10px 24px;
+    border-radius: 48px;
+    margin: 0px 20px;
+    font-weight: 600;
+  }
+  a:nth-child(1) {
+    color: $mainColor;
+  }
+  a:nth-child(2) {
+    background: $mainColor;
+    color: white;
+  }
+}
