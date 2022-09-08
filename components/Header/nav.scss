@@ -1,0 +1,7 @@
+#menu-bar {
+  display: none;
+}
+
+#menu-bar:checked ~ nav {
+  display: initial;
+}
