@@ -10,37 +10,32 @@ function Header() {
       <header className={header.container}>
         <div className={main.container}>
           <div className={header.container__content}>
-            <div className={header.section__one}>
-              <Link href="/">
-                <div className={header.logo}>
-                  <Logo width="36" height="36" />
-                  <span className={header.logo__title}>
-                    Mi<span>Sorteo</span>
-                  </span>
-                </div>
-              </Link>
-              <div className={header.options}>
-                <Link href="/">Precios</Link>
-                <Link href="/">Ayuda</Link>
+            <Link href="/">
+              <div className={header.logo}>
+                <Logo width="36" height="36" />
+                <span className={header.logo__title}>
+                  Mi<span>Sorteo</span>
+                </span>
               </div>
-            </div>
-            <div className={header.auth}>
-              <Link href="/">Inicio Sesión</Link>
-              <Link href="/">Registrarme</Link>
-            </div>
-
-            <div className="lol">
+            </Link>
+            <div className={header.navbar}>
               <input type="checkbox" id="menu-bar" />
               <label htmlFor="menu-bar">
                 <MenuOutlined />
               </label>
-              <nav className="navbar">
+              <nav className={header.navbar__content}>
                 <ul>
                   <li>
-                    <a href="#">Homa</a>
+                    <a href="#">Precios</a>
                   </li>
                   <li>
-                    <a href="#">about</a>
+                    <a href="#">Ayuda</a>
+                  </li>
+                  <li className={header.navbar__login}>
+                    <a href="#">Inicio Sesión</a>
+                  </li>
+                  <li className={header.navbar__register}>
+                    <a href="#">Registrarme</a>
                   </li>
                 </ul>
               </nav>

@@ -5,7 +5,7 @@ import Layout from "@components/Layout";
 import "antd/dist/antd.css";
 import "@styles/globals.scss";
 
-import "@components/Header/header.scss";
+import "@components/Header/nav.scss";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (
