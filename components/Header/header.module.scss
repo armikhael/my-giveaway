@@ -5,6 +5,8 @@
   background: white;
   box-shadow: $mainShadow;
   height: 60px;
+  position: relative;
+  z-index: 999;
   @include flex-center;
   &__content {
     @include flex-center;
