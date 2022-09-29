@@ -1,0 +1,32 @@
+@import "@styles/variables";
+
+.section_one {
+  &_background {
+    position: absolute;
+    width: 100%;
+    div {
+      height: 700px;
+    }
+    &_firts {
+      background-color: $backgroundOne;
+    }
+    &_second {
+      background: linear-gradient(90.99deg, #3b2a80 4.01%, #7d3980 100.71%);
+    }
+  }
+  &_content {
+    height: 700px;
+  }
+  &_titles {
+    display: flex;
+    align-items: center;
+    h1 {
+      font-weight: 700;
+      font-size: 38px;
+    }
+    p {
+      font-weight: 500;
+      font-size: 20px;
+    }
+  }
+}

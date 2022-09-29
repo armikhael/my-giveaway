@@ -48,7 +48,6 @@ const Home: NextPage = () => {
             <div>
               <h1>Lorem ipsum dolor sit amet, consectetur adipiscing</h1>
               <p>Lorem ipsum dolor sit amet, consectetur</p>
-              <button>Registrarme</button>
               <Button name="primary" text="Registrarme" />
             </div>
           </Col>
